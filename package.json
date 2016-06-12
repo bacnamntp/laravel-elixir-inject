@@ -1,0 +1,29 @@
+{
+  "name": "laravel-elixir-inject",
+  "version": "1.0.0",
+  "description": "wrapper gulp inject for laravel elixir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacnamntp/laravel-elixir-inject.git"
+  },
+  "keywords": [
+    "inject"
+  ],
+  "author": "bacnamntp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bacnamntp/laravel-elixir-inject/issues"
+  },
+  "homepage": "https://github.com/bacnamntp/laravel-elixir-inject#readme",
+  "devDependencies": {
+    "gulp-inject": "^4.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "underscore": "^1.8.3"
+  }
+}
