@@ -5,12 +5,12 @@ This is a wrapper of gulp-inject package for laravel elixir
 
 # Usage
 
-var elixir = require('laravel-elixir');
-require('laravel-elixir-inject');
+- var elixir = require('laravel-elixir');
+- require('laravel-elixir-inject');
 
-elixir(function(mix){
-    mix.inject();
-});
+- elixir(function(mix){
+      mix.inject();
+  });
 
 - Options
     - baseDir: './'
