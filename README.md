@@ -13,7 +13,7 @@ elixir(function(mix){
 });
 
 - Options
-    baseDir: './'
-    dest: 'public/'
-    search: '**/*.jade'
-    src: 'resources/jade/'
+    - baseDir: './'
+    - dest: 'public/'
+    - search: '**/*.jade'
+    - src: 'resources/jade/'
