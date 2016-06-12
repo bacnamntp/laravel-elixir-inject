@@ -14,7 +14,7 @@ elixir.extend('inject', function(options){
         baseDir: './',
         dest: 'public/',
         search: '**/*.jade',
-        src: '/resources/jade/'
+        src: 'resources/jade/'
     }, options);
 
     new Task('inject', function(){
