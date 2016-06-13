@@ -3,7 +3,6 @@ var gulp    = require('gulp');
 var inject  = require('gulp-inject');
 var jade    = require('gulp-jade');
 var plumber = require('gulp-plumber');
-var notify  = require('gulp-notify');
 var _       = require('underscore');
 
 var Task = elixir.Task;
@@ -25,12 +24,7 @@ elixir.extend('inject', function(options){
             }))
             .pipe(gulp.dest(options.baseDir + options.dest))
             .pipe(inject(gulp.src(options.baseDir + options.dest + '**/*.css', {read: false}), {relative: true}))
-            .pipe(gulp.dest(options.baseDir + options.dest))
-            .pipe(notify({
-                title: 'Jade completed',
-                message: 'All Jade Templates have been compiled.',
-                icon: __dirname + '/../laravel-elixir/icons/pass.png'
-            }));
+            .pipe(gulp.dest(options.baseDir + options.dest));
     })
     .watch(options.baseDir + options.src + options.search);
 });

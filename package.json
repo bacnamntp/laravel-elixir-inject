@@ -22,7 +22,6 @@
   "devDependencies": {
     "gulp-inject": "^4.1.0",
     "gulp-jade": "^1.1.0",
-    "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.1.0",
     "underscore": "^1.8.3"
   }
